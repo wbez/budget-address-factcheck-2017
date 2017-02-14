@@ -137,7 +137,7 @@ GOOGLE APPS SCRIPTS
 
 # PARENT_FOLDER_ID = '0B6C-jdxmvrJoM3JnZ1ZZUkhVQTg'
 GAS_LOG_KEY = '1tUxTFa2J5IKIlOMLop9IA9eaZ6uDDhgh6KwxeLdgQGU' # Google app script logs spreadsheet key
-TRANSCRIPT_GDOC_KEY = '1n395I0Qo7WsACZv1b918FZGrvLWmhQ9DwjpZ3rqFbRM' # Google app script google doc key
+TRANSCRIPT_GDOC_KEY = '1gpUoy1LpWwuGRJq4P5SmYFKFHAwiU3M9Amy7f8PYw0s' # Google app script google doc key
 SCRIPT_PROJECT_NAME = 'factcheck_scripts' # Google app scripts project name
 CSPAN = False
 
@@ -244,7 +244,7 @@ def configure_targets(deployment_target):
         DEBUG = False
         ASSETS_MAX_AGE = 86400
         # PRODUCTION DOCUMENT
-        TRANSCRIPT_GDOC_KEY = '1LZuK4-BnpQTLu6FdT52Tl6NpXUyAWd7iW50CL3__-wo'
+        TRANSCRIPT_GDOC_KEY = '1gpUoy1LpWwuGRJq4P5SmYFKFHAwiU3M9Amy7f8PYw0s'
         # PRODUCTION LOGS
         GAS_LOG_KEY = '1tUxTFa2J5IKIlOMLop9IA9eaZ6uDDhgh6KwxeLdgQGU'
     elif deployment_target == 'staging':
